@@ -8,13 +8,12 @@ Simulate the path of light beams in the approximation of geometrical optics. Cur
  - Mirrors
  - Optical interfaces
 
-## Dependencies
- - `matplotlib`
- - `numpy`
- - `scipy`
- - `math`
+## Installation
+```bash
+pip3 install -r requirements.txt
+```
 
-## Use
+## Usage
  You will find a file `opytic_example.py` where is runned an example of a simulation that opytic can run.
  Such a simulation is build as explained:
   - Create the optical objects : lenses, mirrors, interfaces
