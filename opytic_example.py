@@ -26,7 +26,7 @@ x,y,i = beams[-1].state()
 print("One of the rays passes through the point (", x, ',', y, ') with an angle with optical axis of', i, 'rad')
 
 #prints the optical objects
-interface1.draw(20)
+interface1.draw(20) #the argument here corresponds to the height of the shown interface
 lens1.draw()
-mirror1.draw(-10,10)
+mirror1.draw(-10,10) #the argument here correspond to the minimal and maximal height of the mirror
 show()
