@@ -1,6 +1,7 @@
-from opytic import *
+from opytic.plout import *
 import numpy as np
-
+import os
+os.chdir(os.getcwd() + '/..')
 #define the lenses surfaces
 s1_lens1 = aspheric_surface(8.818197, -0.9991715, 8.682167*10**(-5), 6.3760123*10**(-8), 2.4073084*10**(-9),-1.7189021*10**(-11))
 s2_lens1 = aspheric_surface(-69.99948)
