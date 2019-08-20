@@ -1,12 +1,10 @@
-##low-level functions
-
 #here comes all the external libraries imports of opytics
 from scipy.optimize import fsolve
 import numpy as np
 import matplotlib.pyplot as plt
 from math import *
 
-
+##low-level functions
 def straight(x0,y0,i): #parametric straight line with an angle i with the axis Ox
     return parametric(lambda t: x0 + cos(i)*t, lambda t: y0 + sin(i)*t)
 
@@ -59,15 +57,6 @@ def intersection(c1,c2): #return the point of intersection between the curves c1
 
 def angle(c,t):
     return atan(derivative(c.x,t)/derivative(c.y,t))
-
-
-
-
-
-
-
-
-
 
 
 

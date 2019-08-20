@@ -1,4 +1,4 @@
-from opytic.plout import *
+from opytic import *
 import numpy as np
 import os
 os.chdir(os.getcwd() + '/..')
