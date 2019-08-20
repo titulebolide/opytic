@@ -8,7 +8,7 @@ Simulate the path of light beams in the approximation of geometrical optics. Cur
  - Mirrors
  - Optical interfaces
 
-## Dependancies
+## Dependencies
  - `matplotlib`
  - `numpy`
  - `scipy`
