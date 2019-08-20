@@ -5,8 +5,6 @@ from scipy.optimize import fsolve
 import numpy as np
 import matplotlib.pyplot as plt
 from math import *
-import time
-
 
 
 def straight(x0,y0,i): #parametric straight line with an angle i with the axis Ox
