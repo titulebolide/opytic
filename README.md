@@ -1,6 +1,6 @@
 # opytic
 
-Python library to simulate geometrical optics
+Python library to simulate geometrical optics 
 
 Simulate the path of light beams in the approximation of geometrical optics. Currently supports the following optical objects:
 
